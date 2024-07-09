@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.eww.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "eww.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "BlockStateMixin",
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
